@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: alksanet;
+    src: url(assets/fonts/alk-sanet-webfont.ttf);
+}
+
+@font-face {
+    font-family: alksanet-rounded;
+    src: url(assets/fonts/alk-rounded-nusx-med-webfont.ttf);
+}
