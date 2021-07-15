@@ -70,6 +70,12 @@ a
 }
 
 
+#search
+{
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
 @media(max-width:991px)
 {
     .nav-item
@@ -80,5 +86,10 @@ a
     .navbar-nav
     {
         padding: 0 !important;
+    }
+
+    .mymagti
+    {
+        margin: 10px 0 10px 0 !important;
     }
 }
