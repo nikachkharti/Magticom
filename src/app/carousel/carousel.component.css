@@ -1,0 +1,46 @@
+.carousel-description
+{
+    margin-top: 70px;
+    color: #485f71;
+}
+
+.carousel-details
+{
+    color: #afbbbd !important;
+}
+
+.details-btn:hover
+{
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+.right-arrow-btn:hover
+{
+    background-color: #fa114b !important;
+    color: #fff !important;
+}
+
+
+
+@media(max-width:991px)
+{
+    .carousel-description .card
+    {
+        text-align: center;
+    }
+
+    .carousel-image
+    {
+        width: 250px !important;
+        height: 250px !important;
+    }
+}
+
+@media(max-width:350px)
+{
+    swiper
+    {
+        display: none;
+    }
+}

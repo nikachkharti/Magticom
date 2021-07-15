@@ -1,0 +1,44 @@
+<swiper
+    [slidesPerView]="1"
+    [spaceBetween]="50"
+    (swiper)="onSwiper($event)"
+    (slideChange)="onSlideChange()"
+    [navigation]="true"
+    [pagination]="{ clickable: true }"
+    [scrollbar]="{ draggable: false }">
+
+    <div class="carousels" *ngFor="let item of carouselContentArray">
+        <ng-template swiperSlide>
+            <div class="container-fluid bg-light">
+                <div class="row">
+                    <div class="carousel-description col-lg-6 p-5">
+                        <div class="card bg-light border-0">
+                            <div class="card-body">
+                              <h2 class="card-title fw-bold">{{item.title}}</h2>
+                              <h5 class="card-subtitle mb-2 text-muted mt-3">{{item.subTitle}}</h5>
+                              <p class="carousel-details card-text mt-3">{{item.description}}</p>
+
+                             
+                                <!-- Split dropend button -->
+                                <div class="btn-group dropend">
+                                    <button type="button" class="details-btn btn btn-danger bg-transparent text-danger">
+                                    დეტალურად
+                                    </button>
+                                    <button type="button" class="right-arrow-btn btn btn-danger px-3 dropdown-toggle dropdown-toggle-split bg-transparent text-danger" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden">Toggle Dropright</span>
+                                    </button>
+                                </div>
+                              
+                            </div>
+                          </div>
+                    </div>
+    
+                    <div class="col-lg-6 p-5 text-center">
+                        <img class="carousel-image" src="{{item.image}}" alt="Magticom">
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+
+    </div>
+</swiper>
