@@ -2,3 +2,83 @@
 {
     font-family: alksanet !important;
 }
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* header */
+
+.dropdown
+{
+    position: static !important;
+}
+
+.dropdown-menu
+{
+    width: 100%;
+}
+
+/* .dropdown:hover>.dropdown-menu
+{
+    display: block;
+} */
+
+.nav-link:hover
+{
+    color: red !important;
+}
+
+.dropdownHeader
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.dropdown-item:not(.dropdownHeader)
+{
+    color: rgb(153, 153, 153);
+}
+
+.dropdown-item:hover
+{
+    color: #000 !important;
+    background: transparent !important;
+    font-weight: bold;
+}
+
+.package-card-title
+{
+    font-size: 16px;
+}
+
+.package-card-description
+{
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+}
+
+.package-buttton
+{
+    font-size: 12px;
+}
+
+
+@media(max-width:991px)
+{
+    .nav-item
+    {
+        padding: 0 !important;
+    }
+
+    .navbar-nav
+    {
+        padding: 0 !important;
+    }
+}
