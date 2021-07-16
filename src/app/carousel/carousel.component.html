@@ -1,6 +1,6 @@
 <swiper
     [slidesPerView]="1"
-    [spaceBetween]="50"
+    [spaceBetween]="0"
     (swiper)="onSwiper($event)"
     (slideChange)="onSlideChange()"
     [navigation]="true"
@@ -19,7 +19,6 @@
                               <p class="carousel-details card-text mt-3">{{item.description}}</p>
 
                              
-                                <!-- Split dropend button -->
                                 <div class="btn-group dropend">
                                     <button type="button" class="details-btn btn btn-danger bg-transparent text-danger">
                                     დეტალურად

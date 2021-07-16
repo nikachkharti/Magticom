@@ -1,0 +1,45 @@
+.statement-container
+{
+    margin-top: 60px;
+}
+
+.statement-title
+{
+    font-size: 20px;
+}
+
+.all-statements
+{
+    font-size: 14px;
+    color: #699CE5;
+}
+
+.statement-container .row:nth-child(2)
+{
+    margin-top: 40px;
+}
+
+.card
+{
+    cursor: pointer;
+    transition: .3s !important;
+}
+
+.card-title
+{
+    font-size: 14px;
+}
+
+.card:hover
+{
+    color:  red !important;
+    box-shadow: 3px 3px 13px rgb(187, 187, 187);
+    transition: .3s !important;
+}
+
+
+
+/* @media(max-width:991px)
+{
+
+} */
