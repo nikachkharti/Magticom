@@ -8,12 +8,15 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { StatementComponent } from './statement/statement.component';
 import { CarouselService } from './carousel.service';
 import { StatementService } from './statement.service';
+import { NewsComponent } from './news/news.component';
+import { NewsService } from './news.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
     StatementComponent,
+    NewsComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,7 +25,8 @@ import { StatementService } from './statement.service';
   ],
   providers: [
     CarouselService,
-    StatementService
+    StatementService,
+    NewsService
   ],
   bootstrap: [AppComponent]
 })
