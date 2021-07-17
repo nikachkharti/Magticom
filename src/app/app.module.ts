@@ -10,6 +10,7 @@ import { CarouselService } from './carousel.service';
 import { StatementService } from './statement.service';
 import { NewsComponent } from './news/news.component';
 import { NewsService } from './news.service';
+import { PopularComponent } from './popular/popular.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NewsService } from './news.service';
     CarouselComponent,
     StatementComponent,
     NewsComponent,
+    PopularComponent,
   ],
   imports: [
     BrowserModule,
