@@ -9,3 +9,30 @@
     font-family: alksanet-rounded;
     src: url(assets/fonts/alk-rounded-nusx-med-webfont.ttf);
 }
+
+.swiper-pagination-bullet {
+    width: 18px !important;
+    height: 18px !important;
+    display: inline-block;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0.2;
+}
+
+
+.swiper-pagination-bullet-active {
+    background-color: red !important;
+    opacity: 1 !important;
+}
+
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 25px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-variant: initial;
+    line-height: 1;
+    color: rgb(158, 154, 154);
+}
