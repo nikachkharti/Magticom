@@ -1,0 +1,44 @@
+
+/* footer */
+
+.footer-row
+{
+    background-color: #3e5261;
+    margin-top: 30px;
+    background-image: url(../../assets/pictures/logo-shape.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.footer-nav-col
+{
+    margin-top: 50px;
+}
+
+
+.footer-nav-item-header
+{
+    font-size: 16px;
+    color: #cbd3d4;
+}
+
+.footer-nav-item-content
+{
+    font-size: 14px;
+    color: #afbbbd;
+}
+
+
+
+
+
+
+
+@media(max-width:991px)
+{
+    .footer-row
+    {
+        text-align: center;
+    }
+}

@@ -10,6 +10,22 @@
     src: url(assets/fonts/alk-rounded-nusx-med-webfont.ttf);
 }
 
+*
+{
+    font-family: alksanet !important;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
 .swiper-pagination-bullet {
     width: 18px !important;
     height: 18px !important;

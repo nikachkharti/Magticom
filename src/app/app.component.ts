@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  hidden: boolean = true;
+  // hidden: boolean = true;
 
-  showInput()
-  {
-    this.hidden = !this.hidden;
-  }
+  // showInput()
+  // {
+  //   this.hidden = !this.hidden;
+  // }
 
 }

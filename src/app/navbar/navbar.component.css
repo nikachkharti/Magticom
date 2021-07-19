@@ -1,0 +1,83 @@
+/* header */
+
+nav .dropdown
+{
+    position: static !important;
+}
+
+nav .dropdown-menu
+{
+    width: 100%;
+}
+
+.dropdown:hover>.dropdown-menu
+{
+    display: block;
+    top: 100%;
+    left: 0;
+    margin-top: .125rem;
+}
+
+.nav-link:hover
+{
+    color: red !important;
+}
+
+.dropdownHeader
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.dropdown-item:not(.dropdownHeader)
+{
+    color: rgb(153, 153, 153);
+}
+
+.dropdown-item:hover
+{
+    color: #000 !important;
+    background: transparent !important;
+    font-weight: bold;
+}
+
+.package-card-title
+{
+    font-size: 16px;
+}
+
+.package-card-description
+{
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+}
+
+.package-buttton
+{
+    font-size: 12px;
+}
+
+
+#search
+{
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+@media(max-width:991px)
+{
+    .nav-item
+    {
+        padding: 0 !important;
+    }
+
+    .navbar-nav
+    {
+        padding: 0 !important;
+    }
+
+    .mymagti
+    {
+        margin: 10px 0 10px 0 !important;
+    }
+}

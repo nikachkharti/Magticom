@@ -11,6 +11,8 @@ import { StatementService } from './statement.service';
 import { NewsComponent } from './news/news.component';
 import { NewsService } from './news.service';
 import { PopularComponent } from './popular/popular.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { PopularComponent } from './popular/popular.component';
     StatementComponent,
     NewsComponent,
     PopularComponent,
+    NavbarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

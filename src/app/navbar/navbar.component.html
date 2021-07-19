@@ -1,0 +1,200 @@
+        <!-- მთავარი მენიუ -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container-fluid">
+        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img class="logo" src="../assets/pictures/magticom-logo.png" alt="Magticom"></a>
+        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-3">
+                                <!-- მობილური -->
+                                <li class="nav-item dropdown px-3">
+                                    
+                                    <a class="nav-link fw-bold"
+                                    [routerLink]="['navbar/mobile']" routerLinkActive="router-link-active" 
+                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    მობილური
+                                    </a>
+                                    
+
+                                    <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                                        <div class="container">
+                                            <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <li><a class="dropdownHeader dropdown-item" href="#">ტარიფები</a></li>
+                                                        <li><a class="dropdown-item" href="#">კოქტეილი</a></li>
+                                                        <li><a class="dropdown-item" href="#">ინტერნეტი</a></li>
+                                                        <li><a class="dropdown-item" href="#">ინტერნეტი როუმინგში</a></li>
+                                                        <li><a class="dropdown-item" href="#">წუთები</a></li>
+                                                        <li><a class="dropdown-item" href="#">SMS/MMS</a></li>
+                                                        <li><a class="dropdown-item" href="#">სხვა ტარიფები</a></li>
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <li><a class="dropdownHeader dropdown-item" href="#">სერვისები</a></li>
+                                                        <li><a class="dropdown-item" href="#">როუმინგი</a></li>
+                                                        <li><a class="dropdown-item" href="#">თანხის გადარიცხვა</a></li>
+                                                        <li><a class="dropdown-item" href="#">მონო კრედიტი</a></li>
+                                                        <li><a class="dropdown-item" href="#">სმარტფონები და მოდემები</a></li>
+                                                        <li><a class="dropdown-item" href="#">სტატისტიკა და დეტალური</a></li>
+                                                        <li><a class="dropdown-item" href="#">ონლაინ შეკვეთა</a></li>
+                                                        <li><a class="dropdown-item" href="#">სხვა სერვისები</a></li>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="card mb-3 border-0 bg-light p-3">
+                                                            <div class="row g-0">
+                                                            <div class="col-md-4">
+                                                                <img src="../assets/pictures/mobile.jpg" class="img-fluid rounded-start mt-3 mb-3 rounded" alt="...">
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="card-body">
+                                                                <h5 class="package-card-title card-title">შეარჩიე სასურველი ინტერნეტ პაკეტი</h5>
+                                                                <p class="package-card-description card-text">უსწრაფესი 4.5G ინტერნეტი მაგთის ხარისხით და საუკეთესო დაფარვით</p>
+                                                                <a href="#" class="package-buttton link-secondary text-decoration-none">
+                                                                    გადადი ბმულზე
+                                                                    <i class="bi bi-arrow-right"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                
+                                <!-- ინტერნეტი -->
+                                <li class="nav-item dropdown px-3">
+                                    <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ინტერნეტი
+                                    </a>
+                                    <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                                        <div class="container">
+                                            <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <li><a class="dropdownHeader dropdown-item" href="#">ტარიფები</a></li>
+                                                        <li><a class="dropdown-item" href="#">სტანდარტული პაკეტები</a></li>
+                                                        <li><a class="dropdown-item" href="#">ინტერნეტი+ტელევიზია</a></li>
+                                                        <li><a class="dropdown-item" href="#">ჩემები</a></li>
+                                                        <li><a class="dropdown-item" href="#">უფრო სწრაფი ინტერნეტი</a></li>
+                                                        <li><a class="dropdown-item" href="#">პაკეტი "მარტივი 10"</a></li>
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <li><a class="dropdownHeader dropdown-item" href="#">სერვისები</a></li>
+                                                        <li><a class="dropdown-item" href="#">როგორ ჩავერთო?</a></li>
+                                                        <li><a class="dropdown-item" href="#">კრედიტი</a></li>
+                                                        <li><a class="dropdown-item" href="#">ბუსტ ღილაკი</a></li>
+                                                        <li><a class="dropdown-item" href="#">მაგთი ქარდი</a></li>
+                                                        <li><a class="dropdown-item" href="#">დროებითი შეჩერება</a></li>
+                                                        <li><a class="dropdown-item" href="#">სხვა სერვისები</a></li>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="card mb-3 border-0 bg-light p-3">
+                                                            <div class="row g-0">
+                                                            <div class="col-md-4">
+                                                                <img src="../assets/pictures/internet.jpg" class="img-fluid rounded-start mt-3 mb-3 rounded" alt="...">
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="card-body">
+                                                                <h5 class="package-card-title card-title">ინტერნეტი + ტელევიზია</h5>
+                                                                <p class="package-card-description card-text">აირჩიე ინტერნეტისა და ტელევიზიის შენზე მორგებული საუკეთესო კომბინაცია</p>
+                                                                <a href="#" class="package-buttton link-secondary text-decoration-none">
+                                                                    გადადი ბმულზე
+                                                                    <i class="bi bi-arrow-right"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+        
+                                <!-- ტელევიზია -->
+                                <li class="nav-item dropdown px-3">
+                                    <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ტელევიზია
+                                    </a>
+                                    <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                                        <div class="container">
+                                            <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <li><a class="dropdownHeader dropdown-item" href="#">IP ტელევიზია</a></li>
+                                                        <li><a class="dropdown-item" href="#">სტანდარტული პაკეტები</a></li>
+                                                        <li><a class="dropdown-item" href="#">დმატებითი პაკეტებია</a></li>
+                                                        <li><a class="dropdown-item" href="#">ტელევიზია + ინტერნეტი</a></li>
+                                                        <li><a class="dropdown-item" href="#">დაიმატე მეორე ტელევიზია</a></li>
+                                                        <li><a class="dropdown-item" href="#">დამატებითი TV პაკეტი</a></li>
+                                                        <li><a class="dropdown-item" href="#">სხვა ტარიფები</a></li>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <li><a class="dropdownHeader dropdown-item" href="#">სერვისები</a></li>
+                                                        <li><a class="dropdown-item" href="#">TV პროგრამა</a></li>
+                                                        <li><a class="dropdown-item" href="#">კრედიტები</a></li>
+                                                        <li><a class="dropdown-item" href="#">დროებითი შეჩერება</a></li>
+                                                        <li><a class="dropdown-item" href="#">IPTV-ის აპლიკაციები</a></li>
+                                                        <li><a class="dropdown-item" href="#">ბუსტ ღილაკი</a></li>
+                                                        <li><a class="dropdown-item" href="#">დისტანციური მართვის პულტი</a></li>
+                                                        <li><a class="dropdown-item" href="#">სხვა სერვისები</a></li>
+                                                    </div>
+        
+                                                    <div class="col-lg-4">
+                                                        <ul class="bg-light p-4">
+                                                            <li><a class="dropdownHeader dropdown-item" href="#">სატელიტური ტელევიზია</a></li>
+                                                            <li><a class="dropdown-item" href="#">როგორ ჩავერთო?</a></li>
+                                                            <li><a class="dropdown-item" href="#">პაკეტები</a></li>
+                                                            <li><a class="dropdown-item" href="#">დამატებითი პაკეტები</a></li>
+                                                            <li><a class="dropdown-item" href="#">ტარიფები</a></li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+        
+                                <!-- სახლის ტელეფონი -->
+                                <li class="nav-item dropdown px-3">
+                                    <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    სახლის ტელეფონი
+                                    </a>
+                                    <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                                        <div class="container">
+                                            <div class="row">
+        
+                                                <div class="col-lg-6">
+                                                    <ul class="bg-light p-4">
+                                                        <li><a class="dropdownHeader dropdown-item" href="#">სადენიანი ტელეფონი</a></li>
+                                                        <li><a class="dropdown-item" href="#">პაკეტები და სატარიფო გეგმები</a></li>
+                                                        <li><a class="dropdown-item" href="#">სტანდარტული ტარიფები</a></li>
+                                                        <li><a class="dropdown-item" href="#">საერთაშორისო ზარები</a></li>
+                                                        <li><a class="dropdown-item" href="#">ჩართვის პირობები</a></li>
+                                                        <li><a class="dropdown-item" href="#">დარეკვის წესი</a></li>
+                                                    </ul>
+                                                </div>
+        
+                                                <div class="col-lg-6">
+                                                    <li><a class="dropdownHeader dropdown-item" href="#">უსადენო ტელეფონი</a></li>
+                                                    <li><a class="dropdown-item" href="#">მაგთი ფიქსის სერვისი</a></li>
+                                                    <li><a class="dropdown-item" href="#">ტარიფები</a></li>
+                                                    <li><a class="dropdown-item" href="#">სერვისები</a></li>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
+                            <input type="text" name="search" id="search" [hidden]="hidden">
+                            <button class="border-0 bg-transparent" (click)="showInput()"><i class="bi bi-search"></i></button>
+                            <li class="mymagti ms-3"><a class="text-dark" href="#">MYMAGTI</a></li>
+                      </div>
+        
+                    </div>
+            </nav>
+        </div>
