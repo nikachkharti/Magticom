@@ -1,29 +1,11 @@
 <div class="container-fluid">
 
-
+        <!-- მთავარი მენიუ -->
         <nav class="row">
             <app-navbar></app-navbar>
         </nav>
 
-        <!-- კაროუსელი -->
-        <div class="row">
-            <app-carousel></app-carousel>
-        </div>
-
-        <!-- განცხადებები -->
-        <div class="row">
-            <app-statement></app-statement>
-        </div>
-        
-        <!-- ახალი ამბები -->
-        <div class="row">
-            <app-news></app-news>
-        </div>
-
-        <!-- პოპულარული ამბები -->
-        <div class="row">
-            <app-popular></app-popular>
-        </div>
+        <router-outlet></router-outlet>
 
         
         <!-- Footer -->
@@ -31,4 +13,5 @@
             <app-footer></app-footer>
         </footer>
         
-        <router-outlet></router-outlet>
+
+

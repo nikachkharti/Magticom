@@ -13,6 +13,8 @@ import { NewsService } from './news.service';
 import { PopularComponent } from './popular/popular.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { MobileComponent } from './navbar/mobile/mobile.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     PopularComponent,
     NavbarComponent,
     FooterComponent,
+    MobileComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,75 @@
+.mobile-content-container .tariffs-row:nth-child(1)
+{
+    background-image: url(../../../assets/pictures/mobile2.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;    
+}
+
+.mobile-content-container .tariffs-row:nth-child(2)
+{
+    background-image: url(../../../assets/pictures/mobile-phones-2.jpg);
+    background-repeat: no-repeat;
+}
+
+.tariffs-title
+{
+    font-size: 1.50rem;
+    color: #485f71;
+    font-weight: 700;
+}
+
+.tariffs-ul-container
+{
+    background-color: #fff;
+}
+
+.tariffs-ul-container ul
+{
+    margin: 40px 0;
+}
+
+.tariffs-ul-container ul li
+{
+    margin: 10px 0;
+}
+
+.tariffs-ul-container ul li a
+{
+    font-size: 18px;
+    color: #485f71;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.tariffs-ul-container ul li a:hover
+{
+    color: red;
+    transition: .2s;
+}
+
+
+.carousel-details
+{
+    color: #afbbbd !important;
+}
+
+.details-btn:hover
+{
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+.right-arrow-btn:hover
+{
+    background-color: #fa114b !important;
+    color: #fff !important;
+}
+
+
+@media(max-width:1199px)
+{
+    .tariffs-img
+    {
+        height: 350px;
+    }
+}
