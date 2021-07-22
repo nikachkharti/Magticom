@@ -15,6 +15,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MobileComponent } from './navbar/mobile/mobile.component';
 import { HomeComponent } from './home/home.component';
+import { InternetComponent } from './navbar/internet/internet.component';
+import { TelevisionComponent } from './navbar/television/television.component';
+import { HomePhoneComponent } from './navbar/home-phone/home-phone.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     MobileComponent,
     HomeComponent,
+    InternetComponent,
+    TelevisionComponent,
+    HomePhoneComponent,
   ],
   imports: [
     BrowserModule,

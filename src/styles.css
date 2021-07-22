@@ -52,3 +52,8 @@ a
     line-height: 1;
     color: rgb(158, 154, 154);
 }
+
+.router-link-active
+{
+    color: red !important;
+}
