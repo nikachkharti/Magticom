@@ -1,0 +1,55 @@
+.cocktail-title
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.internet-progress-ranges ul li
+{
+    font-size: 12px;
+}
+
+.where
+{
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+}
+
+
+.location-select
+{
+    font-size: 14px;
+}
+
+.location-select option
+{
+    font-size: 14px;
+}
+
+.use-date
+{
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+}
+
+
+
+
+
+@media(max-width:991px)
+{
+    .location-select
+    {
+        width: 100% !important;
+    }
+
+    .use-date
+    {
+        display: block !important;
+    }
+
+    .use-date select
+    {
+        width: 100%;
+    }
+}

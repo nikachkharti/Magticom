@@ -15,8 +15,6 @@ export class StatementComponent implements OnInit {
 
   ngOnInit(): void {
     this.statements = this.statementService.getStatementContent();
-    console.log(this.statements);
-    
   }
 
 }

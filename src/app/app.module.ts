@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SwiperModule } from 'swiper/angular';
@@ -18,6 +17,11 @@ import { HomeComponent } from './home/home.component';
 import { InternetComponent } from './navbar/internet/internet.component';
 import { TelevisionComponent } from './navbar/television/television.component';
 import { HomePhoneComponent } from './navbar/home-phone/home-phone.component';
+import { CocktailComponent } from './navbar/mobile/tariffs/cocktail/cocktail.component';
+import { StandartComponent } from './navbar/mobile/tariffs/cocktail/standart/standart.component';
+import { CreateComponent } from './navbar/mobile/tariffs/cocktail/create/create.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -33,11 +37,15 @@ import { HomePhoneComponent } from './navbar/home-phone/home-phone.component';
     InternetComponent,
     TelevisionComponent,
     HomePhoneComponent,
+    CocktailComponent,
+    StandartComponent,
+    CreateComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SwiperModule
+    SwiperModule,
+    FormsModule
   ],
   providers: [
     CarouselService,

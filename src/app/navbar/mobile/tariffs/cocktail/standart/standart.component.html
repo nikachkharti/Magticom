@@ -1,0 +1,38 @@
+<div class="row bg-light">
+    <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let cocktail of cocktailArray">
+    
+        <div class="card-row card border-0 shadow">
+    
+            <div class="card-body mt-1">
+              <h5 class="card-title fw-bold text-center">{{cocktail.title}}</h5>
+              <p class="card-text mt-5">
+                <i class="bi bi-globe2 text-danger"></i>
+                {{cocktail.internet}}
+              </p>
+              <p class="card-text">
+                <i class="bi bi-telephone text-danger"></i>
+                {{cocktail.call}}
+              </p>
+              <p class="card-text">
+                <i class="bi bi-chat-dots text-danger"></i>
+                {{cocktail.message}}
+              </p>
+            </div>
+            
+            <div class="card-footer text-muted text-center">
+              <span class="price">{{cocktail.price}}</span>
+              <span class="currency">₾</span>
+              <span class="days d-block">{{cocktail.days}} დღე</span>
+            </div>
+    
+            <div class="card-body">
+                <span class="mobile-code fw-bold">
+                    {{cocktail.activationCode}} <i class="bi bi-telephone-fill p-3 text-secondary"></i>
+                </span>
+                <button type="button" class="buyBtn btn btn-outline-danger rounded-pill px-3 py-1">შეძენა</button>
+            </div>
+          </div>
+    
+    </div>
+
+</div>

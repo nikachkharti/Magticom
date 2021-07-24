@@ -1,0 +1,125 @@
+<div class="container w-50">
+
+    <div class="bg-white shadow rounded">
+        <div class="row">
+            <h2 class="cocktail-title mt-3 ms-3">ჩემი კოქტეილი</h2>
+        </div>
+    
+        <div class="row text-center mt-3">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="bi bi-globe text-secondary"></i>
+                <p class="fw-bold fs-5">{{internet.value}}MB</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="bi bi-telephone-fill text-secondary"></i>
+                <p class="fw-bold fs-5">{{minutes.value}}</p>
+                <p class="where">{{location}}</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="bi bi-chat-dots text-secondary"></i>
+                <p class="fw-bold fs-5">{{sms.value}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="price-row row text-center mt-5">
+        <h2>{{price}} ₾</h2>
+    </div>
+
+    <div class="row">
+        <div class="col mt-5">
+            <label for="internet-range" class="form-label"><i class="bi bi-globe text-secondary"></i> ინტერნეტი</label>
+            <input
+            type="range"
+            class="form-range"
+            min="0"
+            max="5000"
+            name="internet-range"
+            id="internet-range"
+            #internet
+            (input)="internet.value">
+
+
+            <div class="internet-progress-ranges">
+                <ul class="d-flex justify-content-between">
+                    <li>0</li>
+                    <li>1000MB</li>
+                    <li>3000MB</li>
+                    <li>5000MB</li>
+                    <li>20000MB</li>
+                    <li>ულიმიტო</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <select class="location-select w-25 rounded-pill py-2 ms-auto" name="" id="" [(ngModel)]="location">
+            <option value="საქართველოში">საქართველოში</option>
+            <option value="მაგთიკომის ქსელში">მაგთიკომის ქსელში</option>
+        </select>
+    </div>
+
+    <div class="row mt-2">
+        <div class="col">
+            <label for="minutes-range" class="form-label"><i class="bi bi-telephone"></i> წუთები</label>
+            <input type="range" class="form-range" min="0" max="180" id="minutes-range"
+            #minutes (input)="minutes.value">
+
+            <div class="internet-progress-ranges">
+                <ul class="d-flex justify-content-between">
+                    <li>0</li>
+                    <li>60</li>
+                    <li>180</li>
+                    <li>ულიმიტო</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col mt-5">
+            <label for="sms-range" class="form-label"><i class="bi bi-chat-dots"></i> SMS</label>
+            <input
+            type="range"
+            class="form-range"
+            min="0"
+            max="1000"
+            id="sms-range"
+            #sms
+            (input)="sms.value">
+
+            <div class="internet-progress-ranges">
+                <ul class="d-flex justify-content-between">
+                    <li>0</li>
+                    <li>100</li>
+                    <li>400</li>
+                    <li>1000</li>
+                    <li>ულიმიტო</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="use-date d-flex justify-content-between">
+            <p>მოქმედების ვადა</p>
+
+            <select class="use-date-select rounded-pill py-2" name="" id="">
+                <option value="value-1">1 დღე</option>
+                <option value="value-2">7 დღე</option>
+                <option value="value-3">30 დღე</option>
+            </select>
+            
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <button type="button" class="btn btn-primary rounded-pill w-25 m-auto mb-3">ყიდვა</button>
+    </div>
+
+
+    
+
+
+</div>

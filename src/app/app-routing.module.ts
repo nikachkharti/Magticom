@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { InternetComponent } from './navbar/internet/internet.component';
 import { TelevisionComponent } from './navbar/television/television.component';
 import { HomePhoneComponent } from './navbar/home-phone/home-phone.component';
+import { CocktailComponent } from './navbar/mobile/tariffs/cocktail/cocktail.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -12,6 +13,8 @@ const routes: Routes = [
   { path: "navbar/internet", component: InternetComponent },
   { path: "navbar/television", component: TelevisionComponent },
   { path: "navbar/home-phone", component: HomePhoneComponent },
+  { path: "navbar/mobile/tariffs/cocktail", component: CocktailComponent },
+
 ];
 
 @NgModule({

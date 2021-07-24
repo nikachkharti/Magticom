@@ -1,0 +1,31 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="small-nav mt-3">
+            <a class="me-2" [routerLink]="['/']">მთავარი</a>
+            <i class="bi bi-arrow-right-short me-3"></i>
+            <a class="me-2"  [routerLink]="['/navbar/mobile']">მობილური</a>
+            <i class="bi bi-arrow-right-short me-3"></i>
+            <a class="me-2" [routerLink]="['/navbar/mobile/tariffs']">ტარიფები</a>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row text-center mt-4">
+        <h4>კოქტეილი</h4>
+        <div class="paging mt-5 text-center">
+            <a class="me-2" style="cursor: pointer;" (click)="showStandatComponent()">სტანდარტული</a>
+            <a class="me-2" style="cursor: pointer;" (click)="showCreateComponent()">შექმენი</a>
+        </div>
+    </div>
+
+
+    <div class="bg-light mt-3" *ngIf="standartComponentIsVisible">
+      <app-standart></app-standart>
+    </div>
+
+    <div class="bg-light mt-3" *ngIf="createComponentIsVisible">
+      <app-create></app-create>
+    </div>
+
+</div>
