@@ -21,6 +21,11 @@ import { CocktailComponent } from './navbar/mobile/tariffs/cocktail/cocktail.com
 import { StandartComponent } from './navbar/mobile/tariffs/cocktail/standart/standart.component';
 import { CreateComponent } from './navbar/mobile/tariffs/cocktail/create/create.component';
 import { FormsModule } from '@angular/forms';
+import { MobileInternetComponent } from './navbar/mobile/tariffs/mobile-internet/mobile-internet.component';
+import { InternetRoamingComponent } from './navbar/mobile/tariffs/internet-roaming/internet-roaming.component';
+import { MinutesComponent } from './navbar/mobile/tariffs/minutes/minutes.component';
+import { SmsMmsComponent } from './navbar/mobile/tariffs/sms-mms/sms-mms.component';
+import { OtherTariffsComponent } from './navbar/mobile/tariffs/other-tariffs/other-tariffs.component';
 
 
 @NgModule({
@@ -40,6 +45,11 @@ import { FormsModule } from '@angular/forms';
     CocktailComponent,
     StandartComponent,
     CreateComponent,
+    MobileInternetComponent,
+    InternetRoamingComponent,
+    MinutesComponent,
+    SmsMmsComponent,
+    OtherTariffsComponent,
   ],
   imports: [
     BrowserModule,

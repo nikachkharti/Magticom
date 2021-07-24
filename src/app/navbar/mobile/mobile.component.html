@@ -3,12 +3,12 @@
         <div class="tariffs-ul-container col-xl-4 col-md-12 col-sm-12 shadow">
             <ul>
                 <h3 class="tariffs-title">ტარიფები</h3>
-                <li><a href="#">კოქტეილი</a></li>
-                <li><a href="#">ინტერნეტი</a></li>
-                <li><a href="#">ინტერნეტი როუმინგში</a></li>
-                <li><a href="#">წუთები</a></li>
-                <li><a href="#">SMS</a></li>
-                <li><a href="#">MMS</a></li>
+                <li><a [routerLink]="['/navbar/mobile/tariffs/cocktail']" routerLinkActive="router-link-active" >კოქტეილი</a></li>
+                <li><a [routerLink]="['/navbar/mobile/tariffs/MobileInternetComponent']" routerLinkActive="router-link-active" >ინტერნეტი</a></li>
+                <li><a [routerLink]="['/navbar/mobile/tariffs/InternetRoamingComponent']" routerLinkActive="router-link-active"  >ინტერნეტი როუმინგში</a></li>
+                <li><a [routerLink]="['/navbar/mobile/tariffs/MinutesComponent']" routerLinkActive="router-link-active" >წუთები</a></li>
+                <li><a [routerLink]="['/navbar/mobile/tariffs/SmsMmsComponent']" routerLinkActive="router-link-active" >SMS/MMS</a></li>
+                <li><a [routerLink]="['/navbar/mobile/tariffs/OtherTariffsComponent']" routerLinkActive="router-link-active" >სხვა ტარიფები</a></li>
             </ul>
         </div>
         <div class="tariffs-img col-xl-8 col-md-12 col-sm-12 shadow"></div>
