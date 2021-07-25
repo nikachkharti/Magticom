@@ -1,0 +1,30 @@
+.card-title
+{
+    font-size: 18px;
+}
+
+.card-text
+{
+    font-size: 14px;
+}
+
+.card-footer .price
+{
+    font-size: 38px;
+}
+
+.mobile-code
+{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.buyBtn
+{
+    font-size: 12px;
+}
+
+.card-row
+{
+    margin: 60px 0 30px 0;
+}
+

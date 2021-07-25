@@ -1,0 +1,66 @@
+<div class="container mt-5 bg-light shadow">
+    
+    <div class="row">
+        <div class="d-flex justify-content-between">
+            <p class="mt-2 fw-bold text-secondary">{{mobIntArray.title}}</p>
+            <a [routerLink]="['/navbar/mobile/tariffs/MobileInternetComponent']"><i class="bi bi-x-square-fill fs-2 text-secondary"></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="menu">
+            <a (click)="showPackages()" style="cursor: pointer;">პაკეტი</a>
+            <a (click)="showAdditionalInfo()" class="ms-3" style="cursor: pointer;">დამატებითი ინფორმაცია</a>
+            <hr>
+        </div>
+    </div>
+
+    <div class="package" *ngIf="displayPackages">
+        <div class="info-row row mt-4">
+            <div class="d-flex justify-content-between">
+                <p>ინტერნეტი</p>
+                <p>{{mobIntArray.title}}</p>
+            </div>
+        </div>
+
+        <div class="info-row text-secondary row mt-4">
+            <div class="d-flex justify-content-between">
+                <p>მოქმედების ვადა</p>
+                <p>{{mobIntArray.days}} დღე</p>
+            </div>
+        </div>
+    
+        <div class="info-row row">
+            <div class="d-flex justify-content-between">
+                <p>ფასი</p>
+                <p>{{mobIntArray.price}} ₾</p>
+            </div>
+            <hr>
+        </div>
+    
+        <div class="row mt-4">
+            <button type="button" class="purchase-btn btn btn-outline-danger d-block m-auto rounded-pill">შეძენა</button>
+        </div>
+    
+        <div class="info-row text-secondary row mt-4">
+            <div class="d-flex justify-content-between">
+                <p>აქტივაციის კოდი</p>
+                <p>{{mobIntArray.activationCode}} <i class="bi bi-telephone-fill text-secondary"></i></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="additional-info" *ngIf="displayAdditionalInfo">
+        <ul class="list-group list-group-numbered">
+            <li class="list-group-item bg-light border-0">ინტერნეტპაკეტის ამოწურვის შემდეგ შეგეზღუდებათ ინტერნეტით სარგებლობა. იმისთვის, რომ ისარგებლოთ სტანდარტული ინტერნეტტარიფით (1 მბ 10 თეთრი) აკრიფეთ *111#OK და მიჰყევით ინსტრუქციას;</li>
+            <li class="list-group-item bg-light border-0">გაუხარჯავი მეგაბაიტები გენახებათ პაკეტის ვადის ამოწურვიდან 7 დღის განმავლობაში. 7 დღის შემდეგ მეგაბაიტები გაუქმდება;</li>
+            <li class="list-group-item bg-light border-0">თუ პაკეტის ვადის ამოწურვიდან 7 დღის განმავლობაში შეიძენთ ახალ ინტერნეტპაკეტს, გაუხარჯავი მეგაბაიტები დაემატება ახალ პაკეტს;</li>
+            <li class="list-group-item bg-light border-0">ბალის აბონენტებს თანხა ჩამოეჭრებათ ლარის ანგარიშიდან.</li>
+            <li class="list-group-item bg-light border-0">დაყოვნება: 400 მილიწამი;</li>
+        </ul>
+    </div>
+
+
+
+</div>
+
+

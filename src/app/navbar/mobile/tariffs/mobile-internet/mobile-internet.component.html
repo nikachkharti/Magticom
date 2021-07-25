@@ -1,3 +1,40 @@
 <div class="container-fluid">
     <app-inner-small-nav></app-inner-small-nav>
+
+    <div class="row text-center mt-4">
+        <h5 class="fw-bold text-secondary"> <i class="bi bi-globe2 text-danger fs-5"></i> ინტერნეტი</h5>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let internet of mobileInternetArray;">
+        
+            <div class="card-row card border-0 shadow">
+        
+                <div class="card-body mt-1">
+                  <h5 class="card-title fw-bold text-center">{{internet.title}}</h5>
+                </div>
+                
+                <div class="card-footer text-muted text-center">
+                  <span class="price">{{internet.price}}</span>
+                  <span class="currency">₾</span>
+                  <span class="days d-block">{{internet.days}} დღე</span>
+                </div>
+        
+                <div class="card-body">
+                    <span class="mobile-code fw-bold">
+                        {{internet.activationCode}} <i class="bi bi-telephone-fill p-3 text-secondary"></i>
+                    </span>
+                    <button 
+                      [routerLink]="['/navbar/mobile/tariffs/mobile-internet/MobileInternetDetailsComponent/'+internet.id]" 
+                      type="button"
+                      class="buyBtn btn btn-outline-danger rounded-pill px-3 py-1">
+                      შეძენა</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    
+
+
 </div>
