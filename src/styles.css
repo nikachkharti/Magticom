@@ -57,3 +57,11 @@ a
 {
     color: red !important;
 }
+
+.mymodal{
+    display: none;
+}
+
+.mymodal.show{
+ display: block;
+}

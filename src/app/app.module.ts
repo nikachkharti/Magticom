@@ -26,6 +26,7 @@ import { InternetRoamingComponent } from './navbar/mobile/tariffs/internet-roami
 import { MinutesComponent } from './navbar/mobile/tariffs/minutes/minutes.component';
 import { SmsMmsComponent } from './navbar/mobile/tariffs/sms-mms/sms-mms.component';
 import { OtherTariffsComponent } from './navbar/mobile/tariffs/other-tariffs/other-tariffs.component';
+import { StandartDetailsComponent } from './navbar/mobile/tariffs/cocktail/standart/standart-details/standart-details.component';
 
 
 @NgModule({
@@ -50,6 +51,7 @@ import { OtherTariffsComponent } from './navbar/mobile/tariffs/other-tariffs/oth
     MinutesComponent,
     SmsMmsComponent,
     OtherTariffsComponent,
+    StandartDetailsComponent,
   ],
   imports: [
     BrowserModule,

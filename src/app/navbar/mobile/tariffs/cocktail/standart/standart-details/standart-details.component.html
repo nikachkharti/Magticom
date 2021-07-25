@@ -1,0 +1,82 @@
+<div class="container mt-5 bg-light shadow">
+
+    <div class="row">
+        <div class="d-flex justify-content-between">
+            <p class="mt-2 fw-bold text-secondary">{{cocktailArray.title}}</p>
+            <a [routerLink]="['/navbar/mobile/tariffs/cocktail']"><i class="bi bi-x-square-fill fs-2 text-secondary"></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="menu">
+            <a (click)="showPackages()" style="cursor: pointer;">პაკეტი</a>
+            <a (click)="showAdditionalInfo()" class="ms-3" style="cursor: pointer;">დამატებითი ინფორმაცია</a>
+            <hr>
+        </div>
+    </div>
+    <div class="package" *ngIf="displayPackages">
+        <div class="info-row row mt-4">
+            <div class="d-flex justify-content-between">
+                <p>ინტერნეტი</p>
+                <p>{{cocktailArray.internet}}</p>
+            </div>
+        </div>
+        <div class="info-row row">
+            <div class="d-flex justify-content-between">
+                <p>წუთები</p>
+                <p>{{cocktailArray.call}}</p>
+            </div>
+        </div>
+        <div class="info-row row">
+            <div class="d-flex justify-content-between">
+                <p>SMS</p>
+                <p>{{cocktailArray.message}}</p>
+            </div>
+        </div>
+    
+        <div class="info-row text-secondary row mt-4">
+            <div class="d-flex justify-content-between">
+                <p>მოქმედების ვადა</p>
+                <p>{{cocktailArray.days}} დღე</p>
+            </div>
+        </div>
+    
+        <div class="info-row row">
+            <div class="d-flex justify-content-between">
+                <p>ფასი</p>
+                <p>{{cocktailArray.price}} ₾</p>
+            </div>
+            <hr>
+        </div>
+    
+        <div class="row mt-4">
+            <button type="button" class="purchase-btn btn btn-outline-danger d-block m-auto rounded-pill">შეძენა</button>
+        </div>
+    
+        <div class="info-row text-secondary row mt-4">
+            <div class="d-flex justify-content-between">
+                <p>აქტივაციის კოდი</p>
+                <p>{{cocktailArray.activationCode}} <i class="bi bi-telephone-fill text-secondary"></i></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="additional-info" *ngIf="displayAdditionalInfo">
+        <ul class="list-group list-group-numbered">
+            <li class="list-group-item bg-light border-0">ულიმიტო წუთები ვრცელდება მაგთის, სილქნეტი/ჯეოსელის, ბილაინისა და საქართველოს ფიქსირებული ქსელების მიმართულებით (გარდა ნომრებისა, რომლებიც იწყება კოდით: +99544XXXXXXX) საქართველოს სხვა ქსელებთან - 24 თეთრი;</li>
+            <li class="list-group-item bg-light border-0">30 დღის გასვლის შემდეგ დარჩენილი MB-ები ანულირდება;</li>
+            <li class="list-group-item bg-light border-0">პაკეტის ფარგლებში შეძენილ SMS/MMS ერთეულებს ვერ გამოიყენებთ საერთაშორისო SMS/MMS-ისთვის;</li>
+            <li class="list-group-item bg-light border-0">თუ გაიაქტიურებთ პაკეტს და ვადის გასვლის შემდეგ აღარ გააგრძელებთ მას, ისარგებლებთ სტანდარტული ტარიფით: წუთი - 24 თეთრი საქართველოს ნებისმიერ ქსელზე;</li>
+            <li class="list-group-item bg-light border-0">ბალის აბონენტებს თანხა ჩამოეჭრებათ ლარის ანგარიშიდან;</li>
+            <li class="list-group-item bg-light border-0">დაყოვნება: 400 მილიწამი;</li>
+            <li class="list-group-item bg-light border-0">უფასო წუთები და SMS-ები არ ვრცელდება სპეც. ნომრებზე;</li>
+            <li class="list-group-item bg-light border-0">პაკეტით სარგებლობა შეიზღუდება, თუ აბონენტი დაარღვევს „კეთილსინდისიერი სარგებლობის წესებს“;</li>
+            <li class="list-group-item bg-light border-0">ულიმიტო წუთები არ ვრცელდება ვიდეოზარზე,</li>
+            <li class="list-group-item bg-light border-0">ვიდეოზარის ღირებულებაა: 1 წუთი - 35 თეთრი;</li>
+        </ul>
+    </div>
+
+
+
+</div>
+
+

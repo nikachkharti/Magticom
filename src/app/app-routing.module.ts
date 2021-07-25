@@ -11,6 +11,7 @@ import { InternetRoamingComponent } from './navbar/mobile/tariffs/internet-roami
 import { MinutesComponent } from './navbar/mobile/tariffs/minutes/minutes.component';
 import { SmsMmsComponent } from './navbar/mobile/tariffs/sms-mms/sms-mms.component';
 import { OtherTariffsComponent } from './navbar/mobile/tariffs/other-tariffs/other-tariffs.component';
+import { StandartDetailsComponent } from './navbar/mobile/tariffs/cocktail/standart/standart-details/standart-details.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: "navbar/mobile/tariffs/MinutesComponent", component: MinutesComponent },
   { path: "navbar/mobile/tariffs/SmsMmsComponent", component: SmsMmsComponent },
   { path: "navbar/mobile/tariffs/OtherTariffsComponent", component: OtherTariffsComponent },
+  { path: "navbar/mobile/tariffs/cocktail/standart/StandartDetailsComponent/:id", component: StandartDetailsComponent },
 
 ];
 
