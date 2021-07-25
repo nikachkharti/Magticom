@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mobile-internet.component.css']
 })
 export class MobileInternetComponent implements OnInit {
-
   constructor() { }
+  
 
   ngOnInit(): void {
   }
