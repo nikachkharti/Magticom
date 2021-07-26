@@ -29,6 +29,7 @@ import { OtherTariffsComponent } from './navbar/mobile/tariffs/other-tariffs/oth
 import { StandartDetailsComponent } from './navbar/mobile/tariffs/cocktail/standart/standart-details/standart-details.component';
 import { InnerSmallNavComponent } from './inner-small-nav/inner-small-nav.component';
 import { MobileInternetDetailsComponent } from './navbar/mobile/tariffs/mobile-internet/mobile-internet-details/mobile-internet-details.component';
+import { InternetRoamingDetailsComponent } from './navbar/mobile/tariffs/internet-roaming/internet-roaming-details/internet-roaming-details.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { MobileInternetDetailsComponent } from './navbar/mobile/tariffs/mobile-i
     StandartDetailsComponent,
     InnerSmallNavComponent,
     MobileInternetDetailsComponent,
+    InternetRoamingDetailsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,49 @@
+.menu a
+{
+    color: #333;
+    font-size: 14px;
+    transition: .2s;
+}
+
+.menu a:hover
+{
+    color: red;
+    transition: .2s;
+}
+
+.info-row p
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+hr
+{
+    opacity: 0.1;
+}
+
+.purchase-btn
+{
+    width: 10%;
+}
+
+
+@media(max-width:340px)
+{
+    .menu a
+    {
+        display: block;
+    }
+
+    .menu a:nth-child(2)
+    {
+        margin: 0 !important;
+    }
+}
+@media(max-width:991px)
+{
+    .purchase-btn
+    {
+        width: 100%;
+    }
+}

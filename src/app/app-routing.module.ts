@@ -13,6 +13,7 @@ import { SmsMmsComponent } from './navbar/mobile/tariffs/sms-mms/sms-mms.compone
 import { OtherTariffsComponent } from './navbar/mobile/tariffs/other-tariffs/other-tariffs.component';
 import { StandartDetailsComponent } from './navbar/mobile/tariffs/cocktail/standart/standart-details/standart-details.component';
 import { MobileInternetDetailsComponent } from './navbar/mobile/tariffs/mobile-internet/mobile-internet-details/mobile-internet-details.component';
+import { InternetRoamingDetailsComponent } from './navbar/mobile/tariffs/internet-roaming/internet-roaming-details/internet-roaming-details.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: "navbar/mobile/tariffs/OtherTariffsComponent", component: OtherTariffsComponent },
   { path: "navbar/mobile/tariffs/cocktail/standart/StandartDetailsComponent/:id", component: StandartDetailsComponent },
   { path: "navbar/mobile/tariffs/mobile-internet/MobileInternetDetailsComponent/:id", component: MobileInternetDetailsComponent },
+  { path:'navbar/mobile/tariffs/internet-roaming/InternetRoamingDetailsComponent/:id',component:InternetRoamingDetailsComponent}
 
 ];
 

@@ -1,0 +1,41 @@
+.card-title
+{
+    font-size: 18px;
+}
+
+.card-text
+{
+    font-size: 14px;
+}
+
+.card-footer .price
+{
+    font-size: 38px;
+}
+
+.mobile-code
+{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.buyBtn
+{
+    font-size: 12px;
+}
+
+.card-row
+{
+    margin: 60px 0 30px 0;
+}
+
+/* ოპერატორები ქვეყნების მიხედვით */
+.operators-row-title
+{
+    font-size: .75rem;
+    color: #93a3a6;
+}
+
+.additional-row ul li
+{
+    font-size: 14px;
+}
